@@ -1,0 +1,41 @@
+western x
+classic x
+italian x
+drama x
+cowboy x
+adventure x
+gunslinger x
+oscar x
+action x
+crime x
+biography x
+mystery x
+thriller x
+gangster x
+gang x
+suspense x
+comedy x
+cult x
+police x
+japanese x 
+samurai x
+car x
+golden-globe x
+prison x
+escape x
+war x
+horror x
+todos
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cowboy</title>
+		<link rel="stylesheet" type="text/css" href="filmes.css" />
+	</head>
+	<body>
+		<p id="titulo-da-pagina">Cowboy</p>
+
+
+	</body>
+</html>
