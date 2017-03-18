@@ -7,53 +7,51 @@ document.querySelector("button:nth-of-type(1)").addEventListener("click",functio
 
 document.querySelector("button:nth-of-type(2)").addEventListener("click",function(){show("action")});
 
-document.querySelector("button:nth-of-type(3)").addEventListener("click",function(){ligar("adventure")});
+document.querySelector("button:nth-of-type(3)").addEventListener("click",function(){show("adventure")});
 
-document.querySelector("button:nth-of-type(4)").addEventListener("click",function(){ligar("biography")});
+document.querySelector("button:nth-of-type(4)").addEventListener("click",function(){show("biography")});
 
-document.querySelector("button:nth-of-type(5)").addEventListener("click",function(){ligar("car")});
+document.querySelector("button:nth-of-type(5)").addEventListener("click",function(){show("car")});
 
-document.querySelector("button:nth-of-type(6)").addEventListener("click",function(){ligar("classic")});
+document.querySelector("button:nth-of-type(6)").addEventListener("click",function(){show("classic")});
 
-document.querySelector("button:nth-of-type(7)").addEventListener("click",function(){ligar("comedy")});
+document.querySelector("button:nth-of-type(7)").addEventListener("click",function(){show("comedy")});
 
-document.querySelector("button:nth-of-type(8)").addEventListener("click",function(){ligar("cowboy")});
+document.querySelector("button:nth-of-type(8)").addEventListener("click",function(){show("cowboy")});
 
-document.querySelector("button:nth-of-type(9)").addEventListener("click",function(){ligar("crime")});
+document.querySelector("button:nth-of-type(9)").addEventListener("click",function(){show("crime")});
 
-document.querySelector("button:nth-of-type(10)").addEventListener("click",function(){ligar("cult")});
+document.querySelector("button:nth-of-type(10)").addEventListener("click",function(){show("cult")});
 
-document.querySelector("button:nth-of-type(11)").addEventListener("click",function(){ligar("drama")});
+document.querySelector("button:nth-of-type(11)").addEventListener("click",function(){show("drama")});
 
-document.querySelector("button:nth-of-type(12)").addEventListener("click",function(){ligar("escape")});
+document.querySelector("button:nth-of-type(12)").addEventListener("click",function(){show("escape")});
 
-document.querySelector("button:nth-of-type(13)").addEventListener("click",function(){ligar("gang")});
+document.querySelector("button:nth-of-type(13)").addEventListener("click",function(){show("gang")});
 
-document.querySelector("button:nth-of-type(14)").addEventListener("click",function(){ligar("gangster")});
+document.querySelector("button:nth-of-type(14)").addEventListener("click",function(){show("gangster")});
 
-document.querySelector("button:nth-of-type(15)").addEventListener("click",function(){ligar("gunslinger")});
+document.querySelector("button:nth-of-type(15)").addEventListener("click",function(){show("gunslinger")});
 
-document.querySelector("button:nth-of-type(16)").addEventListener("click",function(){ligar("horror")});
+document.querySelector("button:nth-of-type(16)").addEventListener("click",function(){show("horror")});
 
-document.querySelector("button:nth-of-type(17)").addEventListener("click",function(){ligar("italian")});
+document.querySelector("button:nth-of-type(17)").addEventListener("click",function(){show("japanese")});
 
-document.querySelector("button:nth-of-type(18)").addEventListener("click",function(){ligar("japanese")});
+document.querySelector("button:nth-of-type(18)").addEventListener("click",function(){show("mystery")});
 
-document.querySelector("button:nth-of-type(19)").addEventListener("click",function(){ligar("mystery")});
+document.querySelector("button:nth-of-type(19)").addEventListener("click",function(){show("oscar")});
 
-document.querySelector("button:nth-of-type(20)").addEventListener("click",function(){ligar("oscar")});
+document.querySelector("button:nth-of-type(20)").addEventListener("click",function(){show("police")});
 
-document.querySelector("button:nth-of-type(21)").addEventListener("click",function(){ligar("police")});
+document.querySelector("button:nth-of-type(21)").addEventListener("click",function(){show("prison")});
 
-document.querySelector("button:nth-of-type(22)").addEventListener("click",function(){ligar("prison")});
+document.querySelector("button:nth-of-type(22)").addEventListener("click",function(){show("samurai")});
 
-document.querySelector("button:nth-of-type(23)").addEventListener("click",function(){ligar("samurai")});
+document.querySelector("button:nth-of-type(23)").addEventListener("click",function(){show("thriller")});
 
-document.querySelector("button:nth-of-type(24)").addEventListener("click",function(){ligar("thriller")});
+document.querySelector("button:nth-of-type(24)").addEventListener("click",function(){show("war")});
 
-document.querySelector("button:nth-of-type(25)").addEventListener("click",function(){ligar("war")});
-
-document.querySelector("button:nth-of-type(26)").addEventListener("click",function(){ligar("western")});
+document.querySelector("button:nth-of-type(25)").addEventListener("click",function(){show("western")});
 
 function filme(id, titulo, sinopse, classe) {
 		this.id = id;
