@@ -53,38 +53,40 @@ document.querySelector("button:nth-of-type(24)").addEventListener("click",functi
 
 document.querySelector("button:nth-of-type(25)").addEventListener("click",function(){show("western")});
 
-function filme(id, titulo, sinopse, classe) {
-		this.id = id;
-		this.titulo = titulo;
-		this.sinopse = sinopse;
-		this.classe = classe;
+function Filme(id, title, sinopsis, classes){
 
-		this.mostrar = function(){
-			var article = document.createElement("article");
-			article.setAtribute("id", this.id);
-			for (var i = 0; i < this.classe; i++){
-					article.classList.add(this.classe[i]);
-			}
-	    document.querySelector("body").appendChild(article);
+  this.title = title;
+  this.sinopsis = sinopsis;
+  this.id = id;
+  this.classes = classes;
 
-			var p1 = document.createElement("P");
-			var titulo = document.createTextNode(this.nome);
-			p1.appendChild(titulo);
-			document.querySelector("#" + id).appendChild(p1);
+  this.write = function(){
 
-			var p2 = document.createElement("P");
-			var texto = document.createTextNode(this.sinopse);
-			p2.appendChild(texto);
-			document.querySelector("#" + id).appendChild(p2);
+    var article = document.createElement("article");
+    article.setAttribute("id", this.id);
+    for (var i = 0; i < this.classes.length; i++) {
+        article.classList.add(this.classes[i]);
+    }
+    document.querySelector("body").appendChild(article);
 
-		}
+    var p = document.createElement("p");
+    var label1 = document.createTextNode(this.title);
+    p.appendChild(label1);
+    document.querySelector("#" + id).appendChild(p);
 
-		this.mostrar();
+    var p2 = document.createElement("p");
+    var label2 = document.createTextNode(this.sinopsis);
+    p2.appendChild(label2);
+    document.querySelector("#" + id).appendChild(p2);
+
+  }
+
+  this.write();
 
 }
 
-var yojimbo = new filme("once-upon-a-time-west", "Once Upon a Time in the West (1968)", "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.", "todos western drama classic cowboy adventure", ["todos"]);
+var onceUponATimeWest = new Filme("onceUponATimeWest", "Once Upon a Time in the West (1968)", "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.", ["todos", "western"]);
 
-window.addEventListener("click", show);
+var goodBadUgly = new Filme("goodBadUgly", "The Good, The Bad and The Ugly (1966)", "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.", ["todos", "western", "drama", "classic", "cult", "cowboy"]);
 
 /* adicionar um vetor 'tela', uma classe chamada filme e usar um 'if' para categorias dos filmes.*/

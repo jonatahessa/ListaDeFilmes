@@ -36,26 +36,15 @@ body.western article.western {
 	display: inline-block;
 }
 
-
-#titulo-da-pagina {
-	font-family: Helvetica, Verdana, sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	color: hsl(188, 24%, 92%);
-	margin-left: 20px;
-	margin-right: 30px;
-}
-
-
-#once-upon-a-time-west {
+#onceUponATimeWest {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BYjFiOTlmMzgtOGZlYi00NjY0LThmMzEtNmQ0OTgxNGViOTZmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,658,1000_AL_.jpg);
 }
 
-#goodfellas {
+#goodFellas {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNThjMzczMjctZmIwOC00NTQ4LWJhZWItZDdhNTk5ZTdiMWFlXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,669,1000_AL_.jpg);
 }
 
-#good-bad-ugly {
+#goodBadUgly {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SY1000_CR0,0,656,1000_AL_.jpg);
 }
 
@@ -67,7 +56,7 @@ body.western article.western {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg);
 }
 
-#seven-samurai {
+#sevenSamurai {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5MDY1MjU5MF5BMl5BanBnXkFtZTgwNDM2OTE4MzE@._V1_SY1000_CR0,0,712,1000_AL_.jpg);
 }
 
@@ -75,11 +64,11 @@ body.western article.western {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,681,1000_AL_.jpg);
 }
 
-#gran-torino {
+#granTorino {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMTczMTAxMl5BMl5BanBnXkFtZTcwOTc1ODE0Mg@@._V1_.jpg);
 }
 
-#reservoir-dogs {
+#reservoirDogs {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BNDc0YWFhMmQtOTFhZC00MzViLTlkNjctMWUzYTI2YWFkNzVlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SY1000_CR0,0,666,1000_AL_.jpg);
 }
 
@@ -91,39 +80,39 @@ body.western article.western {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg);
 }
 
-#forrest-gump {
+#forrestGump {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,757,1000_AL_.jpg);
 }
 
-#shawshank-redemption {
+#shawshankRedemption {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg);
 }
 
-#hateful-eight {
+#hatefulEight {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
 }
 
-#wolf-of-wall-street {
+#wolfOfWallStreet {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
 }
 
-#catch-me-if-you-can {
+#catchMeIfYouCan {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_.jpg);
 }
 
-#lock-stock-and-two-smoking-barrels {
+#lockStockAndTwoSmokingBarrels {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,666,1000_AL_.jpg);
 }
 
-#one-flew-over-the-cuckoo-nest {
+#oneFlewOverTheCuckooNest {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,672,1000_AL_.jpg);
 }
 
-#apocalypse-now {
+#apocalypseNow {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BODViM2VjYWYtMzU5Ny00ZjczLWEzNjMtODZmNGMwZDAxNzJkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg);
 }
 
-#the-deer-hunter {
+#theDeerHunter {
 	background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzYmRmZTQtYjk2NS00MDdlLTkxMDAtMTE2YTM2ZmNlMTBkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,678,1000_AL_.jpg);
 }
 
