@@ -53,7 +53,7 @@ document.querySelector("button:nth-of-type(24)").addEventListener("click",functi
 
 document.querySelector("button:nth-of-type(25)").addEventListener("click",function(){show("western")});
 
-function Filme(id, title, sinopsis, classes){
+function Movie(id, title, sinopsis, classes){
 
   this.title = title;
   this.sinopsis = sinopsis;
@@ -85,8 +85,46 @@ function Filme(id, title, sinopsis, classes){
 
 }
 
-var onceUponATimeWest = new Filme("onceUponATimeWest", "Once Upon a Time in the West (1968)", "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.", ["todos", "western"]);
+var onceUponATimeWest = new Movie("onceUponATimeWest", "Once Upon a Time in the West (1968)", "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.", ["todos", "western", "drama", "classic", "cowboy", "adventure"]);
 
-var goodBadUgly = new Filme("goodBadUgly", "The Good, The Bad and The Ugly (1966)", "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.", ["todos", "western", "drama", "classic", "cult", "cowboy"]);
+var goodBadUgly = new Movie("goodBadUgly", "The Good, The Bad and The Ugly (1966)", "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.", ["todos", "western", "drama", "classic", "cult", "cowboy"]);
+
+var unforgiven = new Movie("unforgiven", "Unforgiven (1992)", "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner and a young man.", ["todos", "western", "cowboy", "oscar", "drama", "gunslinger"]);
+
+var django = new Movie("django", "Django (1966)", "A coffin-dragging gunslinger and a half-breed prostitute become embroiled in a bitter feud between a Klan of Southern racists and a band of Mexican Revolutionaries.", ["todos", "western", "adventure", "cowboy", "classic", "gunslinger"]);
+
+var hatefulEight = new Movie("hatefulEight", "The Hateful Eight (2015)", "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.", ["todos", "drama", "western", "thriller", "gang", "cult"]);
+
+var goodFellas = new Movie("goodFellas", "Goodfellas (1990)", "Henry Hill and his friends work their way up through the mob hierarchy.", ["todos", "drama", "biography", "gangster", "crime", "oscar"]);
+
+var memento = new Movie("memento", "Memento (2000)", "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle.", ["todos", "drama", "mystery", "thriller", "crime", "cult"]);
+
+var reservoirDogs = new Movie("reservoirDogs", "Reservoir Dogs (1992)", "After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.", ["todos", "drama", "gang", "crime", "cult", "gangster"]);
+
+var departed = new Movie("departed", "The Departed (2006)", "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.", ["todos", "drama", "crime", "gangster", "oscar", "thriller"]);
+
+var wolfOfWallStreet = new Movie("wolfOfWallStreet", "The Wolf of Wall Street (2013)", "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.", ["todos", "drama", "biography", "comedy", "crime", "police"]);
+
+var catchMeIfYouCan = new Movie("catchMeIfYouCan", "Catch Me If You Can (2002)", "The true story of Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.", ["todos", "drama", "crime", "biography", "adventure", "police"]);
+
+var lockStockAndTwoSmokingBarrels = new Movie("lockStockAndTwoSmokingBarrels", "Lock, Stock and Two Smoking Barrels (1998)", "A botched card game in London triggers four friends, thugs, weed-growers, hard gangsters, loan sharks and debt collectors to collide with each other in a series of unexpected events, all for the sake of weed, cash and two antique shotguns.", ["todos", "comedy", "action", "gangster", "crime", "cult"]);
+
+var yojimbo = new Movie("yojimbo", "Yojimbo (1961)", "A crafty ronin comes to a town divided by two criminal gangs and decides to play them against each other to free the town.", ["todos", "action", "classic", "japanese", "samurai", "thriller"]);
+
+var sevenSamurai = new Movie("sevenSamurai", "Seven Samurai (1954)", "A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.", ["todos", "adventure", "japanese", "samurai", "classic", "cult"]);
+
+var granTorino = new Movie("granTorino", "Gran Torino (2008)", "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.", ["todos", "drama", "cult", "gang", "car", "crime"]);
+
+var forrestGump = new Movie("forrestGump", "Forrest Gump (1994)", "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.", ["todos", "drama", "adventure", "comedy", "oscar", "classic"]);
+
+var shawshankRedemption = new Movie("shawshankRedemption", "Shawshank Redemption (1994)", "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.", ["todos", "crime", "drama", "prison", "escape", "classic"]);
+
+var oneFlewOverTheCuckooNest = new Movie("oneFlewOverTheCuckooNest", "One Flew Over the Cuckoo's Nest (1975)", "A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.", ["todos", "drama", "prison", "escape", "oscar", "classic"]);
+
+var apocalypseNow = new Movie("apocalypseNow", "Apocalypse Now (1979)", "During the Vietnam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.", ["todos", "war", "thriller", "mystery", "horror", "oscar"]);
+
+var theDeerHunter = new Movie("theDeerHunter", "The Deer Hunter (1978)", "An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.", ["todos", "drama", "war", "horror", "oscar", "thriller"]);
+
+
 
 /* adicionar um vetor 'tela', uma classe chamada filme e usar um 'if' para categorias dos filmes.*/
